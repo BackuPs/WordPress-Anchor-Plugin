@@ -76,7 +76,7 @@
 		return $content;
 
 	}
-	add_filter( 'the_content', 'AutoAnchor_add_anchors_to_headings' );
+	add_filter( 'the_content', 'AutoAnchor_add_anchors_to_headings', 99 );
 
 	function AutoAnchor_add_anchor_css_file(){
 	    wp_enqueue_style( 'anchor-style', plugins_url('/assets/style.css', __FILE__), false, '1.0.0', 'all');
