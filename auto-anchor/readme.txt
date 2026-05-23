@@ -1,6 +1,6 @@
 === Auto Anchor ===
 Contributors: Benedikt Bergmann
-Stable tag: 1.2.5
+Stable tag: 1.2.6
 Tags: anchor, auto, headers
 Requires at least: 5.4
 Tested up to: 6.3
